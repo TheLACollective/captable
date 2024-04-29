@@ -43,7 +43,7 @@ export const MemberInviteEmail = ({
             </Text>
             <Text className="text-[14px] leading-[24px] text-black">
               <strong>{invitedBy}</strong> has invited you to join{" "}
-              <strong>{companyName}</strong> on <strong>Ingauge, Inc..</strong>.
+              <strong>{companyName}</strong> on <strong>Ingauge, Inc.</strong>.
             </Text>
 
             <Section className="mb-[32px] mt-[32px]">

@@ -14,11 +14,11 @@ import { cookies } from "next/headers";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Ingauge, Inc..",
-    default: "Ingauge, Inc..",
+    template: "%s | Ingauge, Inc.",
+    default: "Ingauge, Inc.",
   },
   description:
-    "Ingauge, Inc.. is an open source cap table management tool that does not sell your data.",
+    "Ingauge, Inc. is an open source cap table management tool that does not sell your data.",
   icons: [{ rel: "icon", url: logo.src }],
   metadataBase: new URL(constants.url),
 };

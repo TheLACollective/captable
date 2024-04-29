@@ -1,8 +1,8 @@
-<a href="https://captable.inc" alt="Ingauge, Inc..">
-  <img alt="Ingauge, Inc.. cover image" src=".github/images/cover.png?v=0">
+<a href="https://captable.inc" alt="Ingauge, Inc.">
+  <img alt="Ingauge, Inc. cover image" src=".github/images/cover.png?v=0">
 </a>
 
-<h1 align="center">Ingauge, Inc..</h1>
+<h1 align="center">Ingauge, Inc.</h1>
 <p align="center">
   An open source alternative to <strong>Carta</strong>, <strong>Pulley</strong>, <strong>Angelist</strong> and others.
 </p>
@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/github/stars/captableinc/captable??style=flat&label=captable&logo=github&color=2dd4bf&logoColor=fff" alt="Github" />
   </a>
   <a href="https://twitter.com/captableinc">
-    <img src="https://img.shields.io/twitter/follow/captableinc?style=flat&label=%40Ingauge, Inc..&logo=twitter&color=0bf&logoColor=0bf" alt="Twitter" />
+    <img src="https://img.shields.io/twitter/follow/captableinc?style=flat&label=%40Ingauge, Inc.&logo=twitter&color=0bf&logoColor=0bf" alt="Twitter" />
   </a>
   <a href="https://github.com/captableinc/captable/actions/workflows/deploy.yml">
     <img src="https://github.com/captableinc/captable/actions/workflows/deploy.yml/badge.svg?branch=main&title=CI" alt="CI" />
@@ -28,7 +28,7 @@
   </a>
 </p>
 
-<strong>Ingauge, Inc..</strong> will follow the [Open Cap Table Coalition](https://www.opencaptablecoalition.com/format) format, an open source standard to prevent lock-in and keep lawyer fees low. No promises.
+<strong>Ingauge, Inc.</strong> will follow the [Open Cap Table Coalition](https://www.opencaptablecoalition.com/format) format, an open source standard to prevent lock-in and keep lawyer fees low. No promises.
 
 <h2 id="contributors">✨ Contributors</h2>
 

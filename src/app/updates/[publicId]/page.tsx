@@ -103,7 +103,7 @@ const PublicUpdatePage = async ({
               rel="noopener noreferrer"
               className="text-bold text-teal-500 hover:underline"
             >
-              Captable, Inc.
+              Ingauge, Inc..
             </Link>
           </p>
         </div>

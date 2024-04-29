@@ -9,7 +9,7 @@ export const CaptableLogo = ({ className }: { className?: string }) => {
       height={500}
       width={500}
       src={logo}
-      alt="Captable, Inc. Logo"
+      alt="Ingauge, Inc.. Logo"
     />
   );
 };

@@ -1,8 +1,8 @@
 export const constants = {
-  title: "Captable, Inc.",
+  title: "Ingauge, Inc..",
   url: "https://captable.inc",
   description:
-    "Captable, Inc. is the Open Source alternative to Carta and Pulley.",
+    "Ingauge, Inc.. is the Open Source alternative to Carta and Pulley.",
   twitter: {
     url: "https://twitter.com/captableinc",
   },

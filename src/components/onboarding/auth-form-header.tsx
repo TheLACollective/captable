@@ -10,8 +10,8 @@ export function AuthFormHeader({ page }: LoginFormHeaderProps) {
       <CaptableLogo className="mb-3 h-10 w-auto" />
       <h1 className="mb-2 text-2xl font-semibold tracking-tight">
         {page === "signup"
-          ? "Create your Captable, Inc. account"
-          : "Sign in to Captable, Inc."}
+          ? "Create your Ingauge, Inc.. account"
+          : "Sign in to Ingauge, Inc.."}
       </h1>
     </div>
   );

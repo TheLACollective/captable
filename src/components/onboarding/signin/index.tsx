@@ -1,16 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { PasswordInput } from "@/components/ui/password-input";
 import { useToast } from "@/components/ui/use-toast";
 import { ZCurrentPasswordSchema } from "@/trpc/routers/auth/schema";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -69,7 +59,7 @@ const SignInForm = ({ isGoogleAuthEnabled }: LoginFormProps) => {
       <div className="grid w-full max-w-md grid-cols-1 gap-5 rounded-xl border bg-white p-10 shadow">
         <AuthFormHeader page="signin" />
         <>
-          <Form {...form}>
+          {/* <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
               <div className="grid gap-4">
                 <FormField
@@ -142,11 +132,11 @@ const SignInForm = ({ isGoogleAuthEnabled }: LoginFormProps) => {
                 </Button>
               </div>
             </form>
-          </Form>
+          </Form> */}
 
           {isGoogleAuthEnabled && (
             <>
-              <div className="relative">
+              {/* <div className="relative">
                 <div className="absolute inset-0 flex items-center">
                   <span className="w-full border-t"></span>
                 </div>
@@ -155,7 +145,7 @@ const SignInForm = ({ isGoogleAuthEnabled }: LoginFormProps) => {
                     Or continue with
                   </span>
                 </div>
-              </div>
+              </div> */}
 
               <Button
                 disabled={isSubmitting}

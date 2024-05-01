@@ -1,7 +1,5 @@
 "use client";
 
-import { constants } from "@/lib/constants";
-import { RiDiscordFill, RiGithubFill, RiTwitterFill } from "@remixicon/react";
 import { useSession } from "next-auth/react";
 import Link from "next/link";
 import { CaptableLogo } from "./common/logo";
@@ -20,28 +18,6 @@ export const Navbar = () => {
       </Link>
       <div className="grow" />
       <div className="flex items-center gap-4 text-sm">
-        <Link
-          href={constants.twitter.url}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <RiTwitterFill className="text-primary/80" />
-        </Link>
-        <Link
-          href={constants.github.url}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <RiGithubFill className="text-primary/80" />
-        </Link>
-        <Link
-          href={constants.discord.url}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <RiDiscordFill className="text-primary/80" />
-        </Link>
-
         {data && (
           <Link
             className={buttonVariants()}
